@@ -1,4 +1,4 @@
-# Connectinno Notes - Backend API
+# Connectinno Notes - Backend API - Case Study - Mehmet Kurt - Flutter  Dev.
 
 FastAPI-based backend service providing RESTful API for the Flutter application.
 
@@ -257,20 +257,3 @@ For more detailed information, see the [docs/](./docs/) folder:
 - [AI Features](./docs/ai-features.md)
 - [Deployment](./docs/deployment.md)
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch
-3. Commit changes
-4. Push to branch
-5. Create Pull Request
-
-## 📄 License
-
-This project was developed for the Connectinno case study.
-
-## 📞 Support
-
-For any issues:
-- GitHub Issues
-- Email: info@connectinno.com
