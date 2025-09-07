@@ -213,24 +213,6 @@ python check_api_key.py
 curl http://localhost:8000/health
 ```
 
-## 🚀 Deployment
-
-### Environment Variables
-Set the following environment variables in production:
-- `FIREBASE_PROJECT_ID`
-- `GEMINI_API_KEY`
-- `FIREBASE_SERVICE_ACCOUNT_PATH`
-
-### Docker (Optional)
-```dockerfile
-FROM python:3.9-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
-```
-
 ## 🔧 Configuration
 
 ### Firebase Setup
